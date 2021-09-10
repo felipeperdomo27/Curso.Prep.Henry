@@ -1,44 +1,23 @@
-<img  src='./logo.png' height='70px'>
+# Homework: Introducción a Javascript
 
-## Introducción
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
-# Modulo 0 - Prep
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
 
-* [00 - Primeros Pasos](./00-PrimerosPasos)
-* [01 - Git](./01-Git)
-* [02 - I - Introducción a Javascript: Variables, tipos de datos y funciones](./02-JS-I)
-* [03 - II- Flujos de control, operadores de comparación, bucles for](./03-JS-II)
-* [04 - III - continuación de bucles for y Arrays](./04-JS-III)
-* [05 - IV - Objetos](./05-JS-IV)
-* [06 - V - Clases y prototype](./06-JS-V)
-* [07 - VI - Callbacks](./07-JS-VI)
-* [08 - HTML](./08-HTML)
-* [09 - CSS](./09-CSS-Positioning)
-* Henry Challenge => [Inscribite acá para rendir](https://airtable.com/shrjhdL2GfsusMZ05)
 
-## Conceptos:
+2. Instalar Node y NPM. NPM se incluye con Node. https://nodejs.org/en/download/
 
-* [Expressions vs Statements](./JS-conceptos/Statements-Expressions/)
+3. Desde la carpeta `Curso.Prep.Henry` en la carpeta donde clonaste el repo: ingresa el comando `npm install`, una vez que termine ingresa el comando `npm test JSI.test.js` para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo `homework.js`.
 
-## Homeworks
+>> Deberás ir escribiendo código en `homework.js` y corriendo de nuevo los tests hasta que TODOS hayan pasado.
 
-__IMPORTANTE:__ Para ejecutar los tests de cada homework tenes que pararte en la carpeta donde clonaste tu repo (es decir la carpeta donde está este `README.md`) y ejecutar el siguiente comando:
+4. Una vez que termines cada homework, súbela a tu repositorio `Curso.Prep.Henry`, con los comandos que ya aprendiste a usar en la primera lección de git. 
 
-`npm install`
 
-Esto instalará todas las dependencias necesarias (lo tenés que hacer una sóla vez), una vez terminado y cada vez que quieras ver cuantos tests pasaste ejecutá:
-
-```
-npm test {nombre del homework}.test.js
-```
-
-Por ejemplo, para ejecutar los tests del homework 02, ejecutar: `npm test JSII.test.js`
-el del homework 01: `npm test JSI.test.js`
-y así.
-
-> No todos los homeworks tiene tests, está detallado en la descripción de cada uno.
-
-# La Carrera
-
-Si querés saber más sobre la carrera, mirá este video:
-<iframe src="https://player.vimeo.com/video/594727242" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+### Aca tendras acceso a las [Soluciones](https://github.com/atralice/Curso.Prep.Henry/blob/solution/02-JS-I/homework/homework.js)
